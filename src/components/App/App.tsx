@@ -18,7 +18,7 @@ function App() {
         </Text>
         <Flex justifyContent="space-between" alignItems="center" gap="20px" flexWrap="wrap">
           <Flex gap="10px" alignItems="center">
-            <Image src="/public/images/avatar-michelle.jpg" borderRadius="50%" height="25px" />
+            <Image src="/images/avatar-michelle.jpg" borderRadius="50%" height="25px" />
             <Flex flexDirection="column" gap="3px">
               <Heading as="h2" fontWeight="500" fontSize="8px" color="hsl(217, 19%, 35%)">
                 Michelle Appleton
@@ -38,7 +38,7 @@ function App() {
               cursor="pointer"
               onClick={() => setIsShareOpen(!isShareOpen)}
             >
-              <Image src="/public/images/icon-share.svg" width="10px" />
+              <Image src="/images/icon-share.svg" width="10px" />
             </Flex>
             {isShareOpen ? <Share /> : ''}
           </Box>

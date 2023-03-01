@@ -1,4 +1,4 @@
-import { Heading, Flex, Box, Image, Text } from '@chakra-ui/react';
+import { Heading, Flex, Box, Image } from '@chakra-ui/react';
 
 function Share() {
   return (
@@ -25,9 +25,9 @@ function Share() {
         Share
       </Heading>
       <Flex alignItems="center" gap="5px">
-        <Image src="/public/images/icon-facebook.svg" width="10px" cursor="pointer" />
-        <Image src="/public/images/icon-twitter.svg" width="10px" cursor="pointer" />
-        <Image src="/public/images/icon-pinterest.svg" width="10px" cursor="pointer" />
+        <Image src="/images/icon-facebook.svg" width="10px" cursor="pointer" />
+        <Image src="/images/icon-twitter.svg" width="10px" cursor="pointer" />
+        <Image src="/images/icon-pinterest.svg" width="10px" cursor="pointer" />
       </Flex>
       <Box
         transform="translateX(-50%)"
