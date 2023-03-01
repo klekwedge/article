@@ -25,9 +25,9 @@ function Share() {
         Share
       </Heading>
       <Flex alignItems="center" gap="5px">
-        <Image src="/public/images/icon-facebook.svg" width="10px" />
-        <Image src="/public/images/icon-twitter.svg" width="10px" />
-        <Image src="/public/images/icon-pinterest.svg" width="10px" />
+        <Image src="/public/images/icon-facebook.svg" width="10px" cursor="pointer" />
+        <Image src="/public/images/icon-twitter.svg" width="10px" cursor="pointer" />
+        <Image src="/public/images/icon-pinterest.svg" width="10px" cursor="pointer" />
       </Flex>
       <Box
         transform="translateX(-50%)"
